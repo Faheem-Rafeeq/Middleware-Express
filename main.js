@@ -9,7 +9,7 @@ const fs = require('fs')
 
 
 app.use((req, res, next)=> {
- fs.appendFileSync("logs.txt" , `${Date.now()} is a ${req.method}/n`)
+ fs.appendFileSync("logs.txt" , `${Date.now()} is a ${req.method}\n`)
  console.log(`${Date.now()} is a ${req.method}`)
   next()
 })
@@ -22,6 +22,7 @@ app.use((req, res, next)=> {
 
 app.get('/', (req, res) => {
   res.send('Hello World2!')
+  console.log("hello world!")
 })
 
 app.listen(port, () => {
