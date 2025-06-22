@@ -1,1 +1,8 @@
 Hi it Faheem Rafeeq
+
+midlleware request ko modify krr deta ha 
+
+next ka special function controll agly midlle wo dyta ha
+age ya aisa nhi krta ha tu request hanging rha jaty ha
+
+phly jitna ap k middleware hain uska code deta ha bad ma ap ky request ko lyta ha
